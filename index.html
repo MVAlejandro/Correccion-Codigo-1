@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
     <title>APIs</title>
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Se cambia la referencia del css -->
 </head>
 <body>
-    <p class="name"></p>
-    <p class="blog"></p>
+<!-- Se añade un título para mejor visualización -->
+  <h1>Información del Usuario</h1>
+<!-- Se meten todos los datos en una tabla para una organizacipon más limpia -->
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <td class="name"></td>
+            </tr>
+            <tr>
+                <th>Blog</th>
+                <td class="blog"></td>
+            </tr>
+            <tr>
+                <th>Ubicación</th>
+                <td class="location"></td> <!-- Se agrega location que estaba declarado en el JS -->
+            </tr>
+        </table>
 
-  <script src="../assets/js/app.js"></script>
+  <script src="/assets/js/app.js"></script> <!-- Se cambia la referencia del JS -->
 </body>
 </html>
